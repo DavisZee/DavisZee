@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: limegreen;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: url('../assets/images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.hero {
+  padding: 2rem;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.intro h2 {
+  font-size: 1.25rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.profile-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #fff;
+}
+
+.profile-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+}
+
+.about {
+  max-width: 600px;
+}
+
+/* Connect Section */
+.connect .social-icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.social-icons img {
+  width: 40px;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+/* Additional styling (add your flair) */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.icon-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+}
