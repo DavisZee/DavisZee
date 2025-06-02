@@ -1,0 +1,63 @@
+/* styles.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: url('../assets/images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+/* Sections */
+section {
+  padding: 100px 20px;
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background-color: rgba(0, 0, 0, 0.6); /* semi-transparent overlay */
+}
+
+.profile-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #fff;
+}
+
+.about {
+  max-width: 600px;
+}
+
+/* Connect Section */
+.connect .social-icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.social-icons img {
+  width: 40px;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+/* Additional styling (add your flair) */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
